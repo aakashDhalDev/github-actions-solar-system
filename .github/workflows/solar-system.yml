@@ -79,7 +79,7 @@ jobs:
         uses: docker/login-action@v3.7.0
         with:
           registry: ghcr.io
-          username: '${{ github.repository_owner }}'
+          username: aakashdhaldev
           password: '${{ secrets.GITHUB_TOKEN }}'
       - name: Build & Push Docker Image
         uses: docker/build-push-action@v6.19.1
@@ -92,6 +92,7 @@ jobs:
           
       
     
+
 
 
 
